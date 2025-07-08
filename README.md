@@ -54,23 +54,18 @@ This Android application allows users to:
 
 ## 📸 Screenshots
 
-> _Add screenshots here by placing image files in the repo and using the following markdown:_
-
-```markdown
 ![poster](image.png)
 
 
-🛠️ Technologies Used
-     Java (Android)
+## 💻 Technologies Used
+  - Java (Android)
+  - Android Studio
+  - XML Layouts
+  - ListViews & Custom Adapters
+  - Dialogs, Menus, Intents
+  - VR/AR support ideas (for future extension)
 
-     Android Studio
+## 👨‍💻 Author
+- Manohar Kumar
 
-     XML Layouts
-
-     ListView & Adapters
-
-     Intents, Dialogs, Menus
-
-🙌 Author
-Manohar Kumar
-An interactive VR-powered Android developer experience project.
+A fictional VR-powered zoo experience built with Android. Designed to explore animal behavior and provide an engaging and interactive user interface through classic Android components.
