@@ -1,36 +1,76 @@
-Overview:
-In this project, I have created an app for a fictional zoo. 
-The app provides a listing of animals, details of each animal, and basic information about the zoo.
+# 🐾 AmaNandankanan Zoo App
 
-I have used the following concepts of Android Application Development in this project: ListViews, adapters, menus, dialogs and intents.
+**AmaNandankanan** is a fictional zoo app that provides a fun and interactive way to explore animals. The app includes animal listings, detailed views, zoo information, and even VR-like experiences.
 
-Activities:
+---
 
-The app has 3 activities:
-1. Animal listing activity:
-The app has at least 5 animals. Each row in the list has:
-->a thumbnail picture of the animal
-->the name of the animal
-This is implemented as a ListView. When any part of a row is clicked, it launches the details activity for the corresponding animal.
+## 📱 Overview
 
-2. Animal detail activity:
-The animal detail activity shows details on the animal chosen in the list. The activity shows:
-->The name of the animal
-->A large image of the animal
-->A short description of the animal
-->The same detail activity is reused for each animal.
+This Android application allows users to:
+- Browse a list of animals with images.
+- View detailed information about each animal.
+- Access zoo contact information.
+- Experience an interactive dialog warning for a special animal.
 
-3. Zoo information activity:
-The zoo information activity has:
-The name of the zoo.
-A phone number, represented as Button or a TextView. When clicked, the phone number of the zoo (888-8888) is dialed. 
-This activity should be triggered by one of the menu items (see the "Menu Items" section below).
+---
 
-Menu Items:
-The ActionBar remains persistent throughout the app (for every Activity that's shown). The overflow menu has two items:
-->Information: This launches the zoo information activity (described above).
-->Uninstall: This calls an intent to uninstall the app.
-The menu items listed above appears in the overflow menu and not as buttons in the action bar. 
+## 🚀 Features & Activities
 
-Dialog Box:
-When the user clicks on the last animal in the animal listing activity, an alert box  pops up, warning the user that the animal is very scary and asking the user if they want to proceed. If the user clicks "Yes", then the app proceeds as normal. If the user clicks "No", then the app remains on the same activity.
+### 🦁 Animal Listing Activity
+- Displays at least 5 animals.
+- Each row includes:
+  - 🖼️ Thumbnail image of the animal.
+  - 📝 Name of the animal.
+- Clicking a row opens the **Animal Detail Activity**.
+
+### 🐘 Animal Detail Activity
+- Reused for all animals.
+- Displays:
+  - 🏷️ Animal name.
+  - 📸 Large image of the animal.
+  - 📖 Short description.
+
+### 🏞️ Zoo Information Activity
+- Shows:
+  - 🏛️ Zoo name.
+  - ☎️ Clickable phone number (888-8888) that opens the dialer.
+- Triggered from the **Information** option in the menu.
+
+---
+
+## 🧭 Menu Items (Overflow Menu)
+- 📘 **Information** → Opens zoo info activity.
+- ❌ **Uninstall** → Launches an intent to uninstall the app.
+
+---
+
+## ⚠️ Dialog Box Feature
+- When clicking on the **last animal** in the list:
+  - A warning alert pops up (e.g., “This animal is very scary! Proceed?”).
+  - **Yes** → Proceeds to detail view.
+  - **No** → Stays on the same screen.
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots here by placing image files in the repo and using the following markdown:_
+
+```markdown
+![poster](image.png)
+
+
+🛠️ Technologies Used
+     Java (Android)
+
+     Android Studio
+
+     XML Layouts
+
+     ListView & Adapters
+
+     Intents, Dialogs, Menus
+
+🙌 Author
+Manohar Kumar
+An interactive VR-powered Android developer experience project.
